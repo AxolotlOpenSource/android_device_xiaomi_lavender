@@ -5,7 +5,7 @@
 #
 
 #Dalvik HEAP
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk )
+#$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk )
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/lavender/lavender-vendor.mk)

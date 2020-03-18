@@ -6,9 +6,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_lavender.mk \
-    $(LOCAL_DIR)/xperience_lavender.mk
+    $(LOCAL_DIR)/axolotl_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    xperience_lavender-user \
-    xperience_lavender-userdebug \
-    xperience_lavender-eng
+    axolotl_lavender-user \
+    axolotl_lavender-userdebug \
+    axolotl_lavender-eng

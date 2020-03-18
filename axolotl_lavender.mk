@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common XPerience stuff.
-$(call inherit-product, vendor/xperience/config/common_full_phone.mk)
+$(call inherit-product, vendor/axolotl/config/common_full_phone.mk)
 
 #CAF prop CAF includes
 include device/qcom/common/common.mk
@@ -35,7 +35,7 @@ TARGET_SCREEN_HEIGHT := 2340
 #call tcmiface in boot
 PRODUCT_BOOT_JARS += tcmiface
 
-PRODUCT_NAME := xperience_lavender
+PRODUCT_NAME := axolotl_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
