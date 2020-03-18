@@ -437,8 +437,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service \
     android.hardware.power@1.2-impl \
     android.hardware.power@1.0-impl \
-    android.hardware.power@1.2 \
-    vendor.xperience.power@1.0
+    android.hardware.power@1.2
 
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
